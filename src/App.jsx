@@ -22,7 +22,7 @@ function App() {
       <li key={ u.id}>{u.name} <strong> {u.email}</strong>
       <button onClick={()=> deleteUser(u.id)} >Eliminar</button>
       </li>
-    ))}
+    ))} 
   </ul>
 }
 
