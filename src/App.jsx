@@ -8,7 +8,7 @@ function App() {
   const {loading, error, data: users, addData: addUser, deleteData: deleteUser, updateData: updateUser }= useHttpData(url)
 
   if (loading) {
-    return <h2>cargando...</h2>;
+    return <h2>cargando....</h2>;
   }
 
   if (error && !loading) {
